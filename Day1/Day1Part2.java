@@ -10,7 +10,7 @@ public class Day1Part2 {
             }
 
         }
-        return cmpt++;
+        return cmpt;
     }
 
     public static int calculSimilarites(int[]t1, int[]t2){
