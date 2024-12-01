@@ -5,7 +5,7 @@ public class Day1Part2 {
     public static int nbOccurrences(int[]t, int n){
         int cmpt = 0;
         for (int i = 0; i<t.length;i++){
-            if(t[i]==n){
+            if(t[i] == n){
                 cmpt++;
             }
 
@@ -16,7 +16,7 @@ public class Day1Part2 {
     public static int calculSimilarites(int[]t1, int[]t2){
         int similaritesCmpt = 0;
         for (int i = 0; i<t1.length; i++){
-            similaritesCmpt += t1[i]*nbOccurrences(t2, t1[i]);
+            similaritesCmpt += t1[i] * nbOccurrences(t2, t1[i]);
         }
         return similaritesCmpt;
         
